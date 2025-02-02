@@ -1,0 +1,6 @@
+Model,Best Params,RMSE
+RandomForest,"{'n_estimators': 100, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_depth': 10}",0.5262829954182233
+XGBoost,"{'subsample': 0.8, 'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.5203155751472296
+LightGBM,"{'num_leaves': 20, 'n_estimators': 200, 'max_depth': 10, 'learning_rate': 0.01}",0.5282082185638486
+CatBoost,"{'learning_rate': 0.05, 'l2_leaf_reg': 3, 'iterations': 100, 'depth': 6}",0.5164753320537451
+ExtraTrees,"{'n_estimators': 50, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_depth': 10}",0.5229376471920811
