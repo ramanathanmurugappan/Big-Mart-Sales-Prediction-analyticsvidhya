@@ -53,5 +53,4 @@ The goal is to predict `Item_Outlet_Sales` for various items across different ou
 - `modelling.py`: Full pipeline from preprocessing to final predictions.
 - `submission.csv`: Final predictions for the test set.
 
-## Conclusion
-The solution combines robust preprocessing, feature selection, and a stacking ensemble to achieve a competitive RMSE. With further tuning and feature engineering, the model could climb higher on the leaderboard.
+
